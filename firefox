@@ -1,4 +1,15 @@
 #!/bin/bash -e
+
+# This script will download the latest release of Firefox and package it up into a DEB.
+# It takes 2 arguments:
+# - ARCH is the architecture of the binary build (amd64 or i386, default amd64)
+# - LANG is the language/local of the binary build (default en-GB)
+# The DEB files are saved in the same directory as the script.
+
+# USAGE:
+# Download the script and make it executable: chmod +x firefox
+# Invoke the script like this to build the i386 version in US English language/locale: ./firefox i386 en-US
+
 ARCH="$1"
 if [ "$ARCH" != "i386" ]; then
 	OS=linux64
