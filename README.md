@@ -6,13 +6,13 @@ I use Debian Stable as my main operating system. The official Debian repositorie
 
 # How to use
 
-Download the scripts to your device and make it executable. For example:
+Download the desired script to your device and make it executable. For example:
 
 ```
 chmod +x firefox
 ```
 
-Then execute them with the appropriate coommand line arguments. For example, for Firefox:
+Then, execute the script with the appropriate coommand line arguments. For example, for Firefox:
 
 ```
 ./firefox i386 en-US
