@@ -1,10 +1,10 @@
 # Upstream DEB Packager
 This repository contains scripts to package the latest upstream releases of selected software.
 
-# Why?
+## Why?
 I use Debian Stable as my main operating system. The official Debian repositories for the stable release do not include certain software packages, such as the regular release of Firefox (Debian only ships the extended support release, or ESR, of Firefox). I wrote these scripts to supplement the software offering of the official Debian repositories.
 
-# How to use
+## How to use
 
 Download the desired script to your device and make it executable. For example:
 
