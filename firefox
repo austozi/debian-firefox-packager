@@ -5,6 +5,7 @@
 # - ARCH is the architecture of the binary build (amd64 or i386, default amd64)
 # - LANG is the language/local of the binary build (default en-GB)
 # The DEB packages will be saved in the same directory as the script.
+# The DEB packages will install firefox under /opt/firefox.
 
 # USAGE:
 # Download the script and make it executable: chmod +x firefox
