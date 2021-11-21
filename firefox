@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# This script will download the latest release of Firefox and package it up into a DEB.
+# This script will download the latest release of Firefox from Mozilla and package it up into a DEB.
 # It takes 2 arguments:
 # - ARCH is the architecture of the binary build (amd64 or i386, default amd64)
 # - LANG is the language/local of the binary build (default en-GB)
